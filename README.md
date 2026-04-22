@@ -46,7 +46,7 @@ k_mpc P_s P_t
 where `k_mpc` is in `Mpc^-1`, and `P_s` and `P_t` are dimensionless primordial
 power spectra.
 
-## Optional CLASS Use
+## CLASS Use
 
 CLASS is not a dependency of this package. To use the generated table with
 CLASS, configure CLASS separately with its `external_Pk` primordial-input mode.

@@ -1,8 +1,7 @@
 # Inflation Primordial Spectrum Pipeline
 
-Julia tools for solving canonical single-field inflationary backgrounds,
-evolving exact scalar and tensor perturbations, calibrating the primordial
-spectrum to a physical `k` axis, and exporting CLASS-compatible external
+Julia tools to solve for primordial scalar and tensor spectra 
+given any inflationary potential, and exporting CLASS-compatible external
 primordial tables.
 
 ## Scope

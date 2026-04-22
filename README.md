@@ -1,4 +1,4 @@
-# InflationPrimordialPipeline
+# Inflation Primordial Spectrum Pipeline
 
 Julia tools for solving canonical single-field inflationary backgrounds,
 evolving exact scalar and tensor perturbations, calibrating the primordial

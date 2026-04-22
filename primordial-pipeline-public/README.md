@@ -13,8 +13,7 @@ It does not determine reheating physics, infer `N_star`, or run CLASS internally
 
 ## Setup
 
-The required Julia packages are declared in `Project.toml`. A `Manifest.toml`
-is not required for normal use; Julia can resolve compatible package versions
+The required Julia packages are declared in `Project.toml`. Julia can resolve compatible package versions
 from the project file.
 
 From the repository root, install the declared dependencies with:

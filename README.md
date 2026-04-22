@@ -27,7 +27,7 @@ Then check that the package loads:
 julia --project=. -e 'using InflationPrimordialPipeline'
 ```
 
-For a copy-paste command manual, see QUICKSTART.md
+For a copy-paste command manual, see `QUICKSTART.md`
 
 ## Example
 

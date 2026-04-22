@@ -9,12 +9,11 @@ Run them from the repository root, the directory containing `Project.toml`.
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
 ```
 
-What this does:
+This command: 
 
 - `--project=.` tells Julia to use this repository's `Project.toml`.
 - `Pkg.instantiate()` installs the packages declared in `Project.toml`.
-- No `Manifest.toml` is required; Julia resolves compatible dependency
-  versions from the project file.
+- No `Manifest.toml` is required. 
 
 ## 2. Check that the package loads
 
@@ -22,7 +21,7 @@ What this does:
 julia --project=. -e 'using InflationPrimordialPipeline; println("InflationPrimordialPipeline loaded")'
 ```
 
-What this does:
+This command: 
 
 - imports the package from the local repository;
 - confirms that the dependency environment is usable.
@@ -39,7 +38,7 @@ julia --project=. examples/write_class_external_pk.jl \
   --ppd 16
 ```
 
-What this does:
+This command: 
 
 - creates an `artifacts/` output directory;
 - solves a representative calibrated quadratic-potential case;
@@ -64,7 +63,7 @@ power spectra.
 head artifacts/primordial_external_pk.dat
 ```
 
-What this does:
+This command: 
 
 - prints the first rows of the generated primordial table;
 - verifies that the file exists and contains numeric spectrum rows.
@@ -117,7 +116,7 @@ println("P_t_first = ", first(class_export.P_t))
 '
 ```
 
-What this does:
+This command: 
 
 - constructs the built-in quadratic potential `V(phi) = 0.5 m^2 phi^2`;
 - converts the solved spectrum into the CLASS export payload;
@@ -210,7 +209,7 @@ println("first P_t = ", first(class_export.P_t))
 '
 ```
 
-What this does:
+This command: 
 
 - defines a new potential type (without editing package source code);
 - gives the pipeline the potential and its first two field derivatives;
@@ -301,7 +300,7 @@ println("first P_t = ", first(class_export.P_t))
 '
 ```
 
-What this adds beyond the quartic example:
+This adds beyond the quartic example:
 
 - the potential type stores four parameters: `m`, `c`, `d`, and `phi_s`;
 - the first and second derivatives include the derivative of the `tanh` feature;
